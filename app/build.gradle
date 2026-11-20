@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace 'com.jsiot.flowmeter'
+    namespace 'io.github.iammaplezeng'
     compileSdk 37
 
     defaultConfig {
-        applicationId "com.jsiot.flowmeter"
+        applicationId "io.github.iammaplezeng"
         minSdk 26
         targetSdk 37
-        versionCode 6
-        versionName "1.5"
+        versionCode 7
+        versionName "1.6"
     }
 
     buildTypes {

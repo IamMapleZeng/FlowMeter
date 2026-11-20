@@ -1,4 +1,4 @@
-package com.jsiot.flowmeter;
+package io.github.iammaplezeng;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -10,7 +10,7 @@ import android.widget.RemoteViews;
 /** 桌面迷你小组件（2×2）：今日用量大字 + 剩余流量 + 到期天数 + 更新时间。 */
 public class MiniWidget extends AppWidgetProvider {
 
-    public static final String ACTION_REFRESH = "com.jsiot.flowmeter.ACTION_REFRESH";
+    public static final String ACTION_REFRESH = "io.github.iammaplezeng.ACTION_REFRESH";
 
     @Override
     public void onUpdate(Context context, AppWidgetManager mgr, int[] appWidgetIds) {

@@ -1,4 +1,4 @@
-package com.jsiot.flowmeter;
+package io.github.iammaplezeng;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
