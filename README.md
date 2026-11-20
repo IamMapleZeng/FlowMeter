@@ -8,6 +8,16 @@
 
 ---
 
+## 截图
+
+<p align="center">
+  <img src="docs/screenshot-home.jpg" width="320" alt="首页：今日用量气泡、四张数据卡、套餐进度与购买入口">
+</p>
+
+<p align="center"><sub>首页：今日用量气泡 · 四卡数据总览 · 套餐有效期与进度 · 购买套餐入口</sub></p>
+
+---
+
 ## 功能
 
 **首页**
@@ -112,6 +122,9 @@ app/src/main/java/io/github/iammaplezeng/flowmeter/
 ├── BuyActivity.java  购买页（WebView + 免登录）
 ├── UsageWidget.java  4×2 桌面组件
 └── MiniWidget.java   2×2 迷你组件
+
+docs/
+└── screenshot-home.jpg  首页截图（README 引用）
 ```
 
 ---

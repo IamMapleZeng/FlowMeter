@@ -8,6 +8,16 @@ A lightweight Android app for checking data usage on an IoT/M2M SIM card. Enter 
 
 ---
 
+## Screenshot
+
+<p align="center">
+  <img src="docs/screenshot-home.jpg" width="320" alt="Home screen: today's usage bubble, four data cards, plan progress and purchase entry">
+</p>
+
+<p align="center"><sub>Home screen — usage bubble, four data cards, plan validity/progress, purchase entry</sub></p>
+
+---
+
 ## Features
 
 **Home screen**
@@ -112,6 +122,9 @@ app/src/main/java/io/github/iammaplezeng/flowmeter/
 ├── BuyActivity.java  Purchase page (WebView + auto login)
 ├── UsageWidget.java  4×2 widget
 └── MiniWidget.java   2×2 mini widget
+
+docs/
+└── screenshot-home.jpg  Home screen screenshot used by this README
 ```
 
 ---
