@@ -1,4 +1,4 @@
-package io.github.iammaplezeng;
+package io.github.iammaplezeng.flowmeter;
 
 import org.json.JSONObject;
 

@@ -1,4 +1,4 @@
-package io.github.iammaplezeng;
+package io.github.iammaplezeng.flowmeter;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -14,7 +14,7 @@ import java.util.Locale;
 /** 桌面小组件：今日用量 / 套餐剩余 / 到期天数。 */
 public class UsageWidget extends AppWidgetProvider {
 
-    public static final String ACTION_REFRESH = "io.github.iammaplezeng.ACTION_REFRESH";
+    public static final String ACTION_REFRESH = "io.github.iammaplezeng.flowmeter.ACTION_REFRESH";
 
     @Override
     public void onUpdate(Context context, AppWidgetManager mgr, int[] appWidgetIds) {

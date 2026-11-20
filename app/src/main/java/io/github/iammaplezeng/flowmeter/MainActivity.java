@@ -1,4 +1,4 @@
-package io.github.iammaplezeng;
+package io.github.iammaplezeng.flowmeter;
 
 import android.app.Activity;
 import android.app.AlertDialog;

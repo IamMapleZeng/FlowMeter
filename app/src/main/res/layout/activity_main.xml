@@ -83,7 +83,7 @@
                 android:layout_height="214dp"
                 android:layout_marginTop="2dp">
 
-                <io.github.iammaplezeng.BubbleView
+                <io.github.iammaplezeng.flowmeter.BubbleView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 

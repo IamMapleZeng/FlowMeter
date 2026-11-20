@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace 'io.github.iammaplezeng'
+    namespace 'io.github.iammaplezeng.flowmeter'
     compileSdk 37
 
     defaultConfig {
-        applicationId "io.github.iammaplezeng"
+        applicationId "io.github.iammaplezeng.flowmeter"
         minSdk 26
         targetSdk 37
-        versionCode 7
-        versionName "1.6"
+        versionCode 8
+        versionName "1.7"
     }
 
     buildTypes {
