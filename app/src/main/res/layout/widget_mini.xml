@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:paddingLeft="12dp"
+    android:paddingTop="11dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/mHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="今日用量"
+            android:textColor="#D3D9FF"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/mRefresh"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:contentDescription="刷新"
+            android:src="@drawable/ic_refresh" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mHeader"
+        android:layout_marginTop="1dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="—"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mRemain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mToday"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="剩余 —"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/mExpire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mRemain"
+        android:layout_marginTop="1dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#E3E7FF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/mUpdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#C6CCF7"
+        android:textSize="9sp" />
+</RelativeLayout>

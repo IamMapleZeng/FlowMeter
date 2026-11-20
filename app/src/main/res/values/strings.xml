@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">流量小助手</string>
+    <string name="widget_desc">查看设备剩余流量与到期天数</string>
+    <string name="widget_desc_mini">迷你组件：今日用量、剩余流量与到期时间</string>
+</resources>

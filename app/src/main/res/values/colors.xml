@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F1F4FC</color>
+    <color name="headerTop">#4C6BFF</color>
+    <color name="headerBottom">#8A5CF6</color>
+    <color name="accent">#4C6BFF</color>
+    <color name="accentDeep">#3B4FD8</color>
+    <color name="textPrimary">#17203C</color>
+    <color name="textSecondary">#7C85A0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="track">#E7ECFA</color>
+</resources>
